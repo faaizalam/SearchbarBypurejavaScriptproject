@@ -1,4 +1,4 @@
-.input {
+/* .input {
   width: '200px';
   height: '100px';
 }
@@ -19,4 +19,38 @@ h2 {
 }
 .grid-cont > main {
   margin: 30px;
+} */
+* {
+  margin: 0;
+  top: 0;
+}
+#mainh {
+  display: flex;
+  background-color: green;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  /* flex-direction: column; */
+}
+#logo {
+  color: aqua;
+}
+#logos {
+  display: none;
+}
+.hum1 {
+  margin: 5px;
+  border: 2px solid black;
+  width: 20px;
+}
+.hum2 {
+  margin: 5px;
+  width: 20px;
+  width: 20px;
+  border: 2px solid black;
+}
+.hum3 {
+  width: 20px;
+  margin: 5px;
+  border: 2px solid black;
 }

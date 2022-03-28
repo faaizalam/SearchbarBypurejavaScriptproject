@@ -34,3 +34,23 @@ const Searchfun=()=>{
     }
 
 }
+
+
+var a;
+const show_hides=()=>{
+
+    if (a==1) {
+        document.getElementById('images').style.display='inline';
+        return a=0;
+        
+    }else{
+        document.getElementById('images').style.display='none';
+        return a=1
+
+
+    }
+
+
+
+
+}
